@@ -1,0 +1,11 @@
+[project]
+name = "exposure-aware-routing"
+version = "0.1.0"
+requires-python = ">=3.11"
+dependencies = [
+    "numpy", "pandas", "pyarrow", "scipy", "scikit-learn",
+    "datasets", "detoxify", "laya",
+]
+
+[dependency-groups]
+dev = ["pytest"]

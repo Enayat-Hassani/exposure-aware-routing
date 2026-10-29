@@ -1,0 +1,10 @@
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.DS_Store
+
+# Data, scores and checkpoints are rebuilt from the public datasets and the seeds.
+data/
+# Item dumps contain the harmful text itself.
+results/*_read.md
